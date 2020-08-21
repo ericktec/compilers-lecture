@@ -22,7 +22,7 @@ then
 fi
 if [ -f asm-analytics.py ]
 then
-    python asm-analytics.py log
+    python asm-analytics.py "$(<log)"
     exit 0
 fi
 
